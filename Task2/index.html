@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<form name="calculator">
+    <input type="number" id="increment1">
+    <select name="selectFunction" id="firstOperation">
+        <option id="plus">+</option>
+        <option id="minus">-</option>
+        <option id="del">/</option>
+        <option id="umn">*</option>
+    </select>
+    <input type="number" id="increment2">
+    <select name="selectFunction" id="secondOperation">
+        <option id="secondPlus">+</option>
+        <option id="secondMinus">-</option>
+        <option id="secondDel">/</option>
+        <option id="secondUmn">*</option>
+    </select>
+    <input type="number" id="increment3">
+    <button id="calculate" type="submit" onclick="calc()">calculate</button>
+</form>
+<script src="js/script.js"></script>
+</body>
+</html>

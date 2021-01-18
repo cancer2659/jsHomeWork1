@@ -1,0 +1,21 @@
+* {
+    font-size: 16px;
+}
+
+#calculate {
+    width: 100px;
+    height: 30px;
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+input {
+    width: 100px;
+}
+
+select {
+    width: 50px;
+}
+form{
+    padding: 20px;
+}
